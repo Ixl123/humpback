@@ -1,5 +1,5 @@
 
-CONTAINER = $(USER)/$(shell basename $(PWD))
+CONTAINER = $(USER)/$(shell basename $(PWD)):latest
 
 all: build push
 
