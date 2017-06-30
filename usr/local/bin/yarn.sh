@@ -3,10 +3,12 @@
 set -e
 set -x
 
-cd /app
+cd $1
 
 /bin/pwd
-/bin/ls -ali /app
+/bin/ls -ali
 
 /usr/bin/yarn
-/usr/bin/yarn $*
+
+/usr/bin/yarn build
+

@@ -1,5 +1,7 @@
 
-CONTAINER = $(USER)/$(shell basename $(PWD)):0.1
+VERSION = 0.2
+
+CONTAINER = $(USER)/$(shell basename $(PWD)):$(VERSION)
 
 all: build push
 
@@ -8,3 +10,4 @@ build:
 
 push:
 	docker push $(CONTAINER)
+
