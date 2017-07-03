@@ -10,7 +10,7 @@ cd $1
 
 /usr/bin/yarn
 
-/usr/bin/yarn test
-
 /usr/bin/yarn build
+
+CI=true /usr/bin/yarn test
 
