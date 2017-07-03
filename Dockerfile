@@ -1,6 +1,6 @@
 FROM ubuntu
 
-MAINTAINER agabert <alexander.gabert@gmail.com>
+MAINTAINER jcofman <cofman.jacob@gmx.de>
 
 # keep the container as small as possible
 RUN apt-get update && \
