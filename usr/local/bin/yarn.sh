@@ -10,5 +10,7 @@ cd $1
 
 /usr/bin/yarn
 
+/usr/bin/yarn test
+
 /usr/bin/yarn build
 
