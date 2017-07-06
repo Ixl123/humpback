@@ -8,6 +8,10 @@ cd $1
 /bin/pwd
 /bin/ls -ali
 
+command -v nvm
+
+nvm use
+
 /usr/bin/yarn
 
 /usr/bin/yarn build
